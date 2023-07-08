@@ -18,6 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .text-primary{
     color: rgb(108, 108, 235);
@@ -41,4 +42,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(66, 55, 55);
+}
+
+/* header related style  */
+.header{
+    background: #faf2ea;
+}
+
+.banner{
+    padding-left: 28px 29px 30px 140px;
+    display: flex; 
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 489px;
 }
