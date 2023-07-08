@@ -88,6 +88,9 @@ nav a {
 main{
     max-width: 1140px;
 }
+main section{
+    margin-top: 130px;
+}
 
 
 
@@ -97,7 +100,7 @@ main{
     pad: 200px 150px;
     border-radius: 20px;
     background: #f3ede9;
-    margin: 110px 90px;
+    margin: 270px 150px;
  }
  .section-title{
      color:  #0a0a0a;
@@ -120,4 +123,24 @@ main{
 }
 #what-i-do{
     padding: 30px 150px;
+}
+/* what i do realted style  */
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 25px;
+    border-radius: 10px;
+background: #dfdddd;
+box-shadow: 5px 8px 30px 8px rgba(230, 224, 224, 0.06);
+}
+.skill-discription{
+   color: #474746;
+}
+/* resume section  */
+.resume-colume-title{
+     color: #474747;
+     font-size: 30px;
+     font-weight: 700;
+
 }
